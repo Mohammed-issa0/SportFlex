@@ -29,13 +29,14 @@ export default function ProductSlider() {
                 animate={{ opacity: 1 }}
                 className="px-4"
               >
-                <div className=" rounded-2xl  flex justify-center items-center">
-                  <div className="relative h-96">
-                    
+                <div className=" rounded-2xl  flex justify-center items-center relative">
+                  
+                  <div className=" h-96">
+                  <div className='w-[300px] h-[300px] rounded-full bg-white top-0'></div>
                     <img
                       src={product.image}
                       alt={product.name}
-                      className="h-full  "
+                      className="h-[80%] absolute top-0 "
                     />
                   </div>
                 </div>

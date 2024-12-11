@@ -35,7 +35,8 @@ export default function Testimonials() {
     slidesToScroll: 1,
     arrows: false,
     autoplay: true,
-    autoplaySpeed: 5000
+    autoplaySpeed: 5000,
+    
   };
 
   return (
@@ -43,7 +44,7 @@ export default function Testimonials() {
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-16">تجارب عملائنا</h2>
         <div className="max-w-3xl mx-auto">
-          <Slider {...settings}>
+          <Slider {...settings} dir="rtl">
             {testimonials.map((testimonial, index) => (
               <div dir='rtl' key={index} className="border  py-5 rounded-md  text-right px-8">
                 <p className="font-bold ">

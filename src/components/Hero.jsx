@@ -5,7 +5,7 @@ import ProductSlider from './ProductSlider';
 
 export default function Hero() {
   return (
-    <div className="relative min-h-screen bg-gradient-to-b from-sport-dark to-sport text-white">
+    <div className="relative min-h-screen bg-gradient-to-r from-sport-dark to-sport text-white">
       <div className="absolute inset-0 bg-black opacity-10"></div>
       <div className="container mx-auto px-4 py-32 relative">
         <motion.div
@@ -19,7 +19,7 @@ export default function Hero() {
             هل ترغب في تعزيز أدائك الرياضي بينما تحافظ على راحتك وأسلوبك العصري؟
           </p>
           <p className="text-lg mb-12 max-w-2xl mx-auto">
-            اكتشف خفافات SportFlex، الحذاء الذي يجمع بين الراحة الفائقة والتصميم الرياضي الأنيق ليمنحك الأداء المثالي في كل خطوة.
+            اكتشف حذاء SportFlex، الحذاء الذي يجمع بين الراحة الفائقة والتصميم الرياضي الأنيق ليمنحك الأداء المثالي في كل خطوة.
           </p>
           <CtaBtn />
           <ProductSlider />

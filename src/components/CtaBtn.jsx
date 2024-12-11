@@ -8,7 +8,7 @@ export default function CtaBtn(){
             initial={{scale: .95}}
             animate={{scale: [.95 ,1.05, .95]}}
             transition={{repeat:Infinity ,duration:.8 }}
-            className="bg-white text-sport-dark hover:bg-sport-light font- py-4 px-8 rounded-full text-lg inline-flex items-center gap-2"
+            className="bg-white text-sport-dark hover:bg-sport-light font-bold py-4 px-8 rounded-full text-lg inline-flex items-center gap-2"
           >
             <FaShoppingCart className="w-5 h-5" />
             اطلبه الآن

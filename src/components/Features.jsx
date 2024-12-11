@@ -17,11 +17,7 @@ const features = [
     title: "أداء استثنائي",
     description: "تقنيات مبتكرة لتوفير دعم مثالي"
   },
-  {
-    icon: <FaWind className="w-8 h-8 mb-4 text-sport-dark" />,
-    title: "مقاومة للتعرق",
-    description: "توفر تهوية ممتازة لتبقى قدماك جافة"
-  },
+ 
   {
     icon: <FaHeart className="w-8 h-8 mb-4 text-sport-dark" />,
     title: "راحة قصوى",
@@ -33,7 +29,7 @@ export default function Features() {
   return (
     <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-16 text-sport-dark">لماذا خفافات SportFlex؟</h2>
+        <h2 className="text-4xl font-bold text-center mb-16 text-sport-dark">لماذا حذاء SportFlex؟</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => (
             <motion.div
@@ -45,7 +41,7 @@ export default function Features() {
             >
               <div className="flex justify-center">{feature.icon}</div>
               <h3 className="text-xl font-bold mb-4 text-sport-dark">{feature.title}</h3>
-              <p className="text-gray-600">{feature.description}</p>
+              <p className="text-white">{feature.description}</p>
             </motion.div>
           ))}
         </div>
