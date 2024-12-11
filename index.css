@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  direction: rtl;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.testimonials-slider .slick-dots {
+  bottom: -40px;
+  background: #047857;
+  color: #047857;
+}
+
+.testimonials-slider .slick-dots li {
+  margin: 0 4px;
+  color: #047857;
+  background: #047857;
+}
+
+.testimonials-slider .slick-dots li button:before {
+  display: none;
+  color: #047857;
+}
+
+.testimonials-slider .slick-slide {
+  opacity: 0.5;
+  transform: scale(0.9);
+  transition: all 0.3s ease;
+}
+
+.testimonials-slider .slick-current {
+  opacity: 1;
+  transform: scale(1);
+}
