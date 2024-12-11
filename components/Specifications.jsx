@@ -40,7 +40,7 @@ export default function Specifications() {
             >
               <div className="flex justify-center">{spec.icon}</div>
               <h3 className="text-xl font-bold mb-4 text-sport-dark">{spec.title}</h3>
-              <p className="text-gray-600">{spec.description}</p>
+              <p className="text-red-900">{spec.description}</p>
             </motion.div>
           ))}
         </div>

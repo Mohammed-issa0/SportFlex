@@ -1,32 +1,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
 :root {
   direction: rtl;
 }
 
 body {
   margin: 0;
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-family: "Cairo", sans-serif;
 }
 
 .testimonials-slider .slick-dots {
   bottom: -40px;
-  background: #047857;
-  color: #047857;
 }
 
 .testimonials-slider .slick-dots li {
   margin: 0 4px;
-  color: #047857;
-  background: #047857;
+  color:red;
+  background-color: white;
+}
+.slick-dots li {
+  margin: 0 4px;
+  color:red;
+  width: 20px;
+  transition: .3s;
+}
+.slick-dots li.slick-active button:before {
+  margin: 0 4px;
+  color:white;
+  font-size: 10px;
+  transition: .3s;
+}
+.slick-dots li button:before {
+  margin: 0 4px;
+  color:white;
+  width: 20px;
+  transition: .3s;
 }
 
-.testimonials-slider .slick-dots li button:before {
-  display: none;
-  color: #047857;
-}
 
 .testimonials-slider .slick-slide {
   opacity: 0.5;

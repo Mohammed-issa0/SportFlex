@@ -41,7 +41,7 @@ export default function Features() {
             >
               <div className="flex justify-center">{feature.icon}</div>
               <h3 className="text-xl font-bold mb-4 text-sport-dark">{feature.title}</h3>
-              <p className="text-gray-600">{feature.description}</p>
+              <p className="text-white">{feature.description}</p>
             </motion.div>
           ))}
         </div>

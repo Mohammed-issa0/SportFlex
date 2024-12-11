@@ -40,7 +40,7 @@ export default function Benefits() {
             >
               <div className="flex justify-center mb-6">{benefit.icon}</div>
               <h3 className="text-xl font-bold mb-4 text-sport-dark">{benefit.title}</h3>
-              <p className="text-gray-600">{benefit.description}</p>
+              <p className="text-red-900">{benefit.description}</p>
             </motion.div>
           ))}
         </div>
